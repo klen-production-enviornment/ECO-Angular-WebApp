@@ -1,19 +1,12 @@
 # Local
 
-Angular-Bootstrap-Boilerplate-master/node_modules/
+/node_modules/
+package-lock.json
 
-Angular-Bootstrap-Boilerplate-master/.firebaserc
-Angular-Bootstrap-Boilerplate-master/.gitignore
-Angular-Bootstrap-Boilerplate-master/angular.json
-Angular-Bootstrap-Boilerplate-master/changelog
-Angular-Bootstrap-Boilerplate-master/firebase.json
-Angular-Bootstrap-Boilerplate-master/firestore.indexes.json
-Angular-Bootstrap-Boilerplate-master/firestore.rules
-Angular-Bootstrap-Boilerplate-master/License.pdf
-Angular-Bootstrap-Boilerplate-master/package-lock.json
-Angular-Bootstrap-Boilerplate-master/package.json
-Angular-Bootstrap-Boilerplate-master/README.md
-Angular-Bootstrap-Boilerplate-master/remoteconfig.template.json
-Angular-Bootstrap-Boilerplate-master/storage.rules
-Angular-Bootstrap-Boilerplate-master/tsconfig.json
-Angular-Bootstrap-Boilerplate-master/tslint.json
+# ENV
+
+/src/environments/*
+
+
+
+
