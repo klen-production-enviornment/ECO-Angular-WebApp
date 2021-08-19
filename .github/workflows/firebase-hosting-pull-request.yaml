@@ -9,15 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-<<<<<<< HEAD
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
       - run: npm ci
       - run: npm run build:prod
-=======
-      - run: npm ci && ng serve
->>>>>>> e089997c3a4ed35a0dded2c2a81a3d38af70969a
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
